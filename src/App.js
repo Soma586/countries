@@ -98,7 +98,7 @@ function App() {
         {displayList ? (
           <div className="container h-100">
             <div className="d-lg-flex justify-content-between w-100 h-100">
-              <div className="mb-4 h-100 darkplace">
+              <div className={classNames("mb-4 h-100", isDarkMode && "darkplace")}>
                 <input
                   className={classNames(
                     isDarkMode && "bg-lightblack darkplace"
