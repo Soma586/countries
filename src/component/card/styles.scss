@@ -1,0 +1,25 @@
+.containerCard {
+
+
+    width: 264px;
+    height: 336px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: "LeagueSpartan";
+    border-radius: 4px;
+    
+}
+
+
+.flag {
+    width: 264px;
+    height: 160px;
+   // border-radius: 4px;
+    //bord
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.desc {
+    padding-left: 8px;
+}
+

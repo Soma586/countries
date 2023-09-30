@@ -1,0 +1,29 @@
+@import '../../node_modules/bootstrap/scss/_functions';
+@import '../../node_modules/bootstrap/scss/_variables';
+
+$orange : #D87D4A;
+$dark : #101010;
+$grey: #F1F1F1;
+$lightgrey: #FAFAFA;
+$lightorange: #FBAF85;
+$white: #FFFFFF;
+$black: #202C36;
+$lightblack: #2B3844;
+
+
+$custom-theme-colors: (
+    
+"orange": $orange, 
+"dark": $dark ,
+"grey" : $grey,
+"lightgrey": $lightgrey,
+"lightorange": $lightorange,
+"white": $white,
+"black" : $black,
+'lightblack' : $lightblack
+
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "node_modules/bootstrap/scss/bootstrap";
